@@ -15,8 +15,7 @@ channel_element = xml_tree.SubElement(rss_element, 'channel')
 # Link to the GitHub Page
 link_prefix = yaml_data['link']
 
-# Grab values from the feed.yaml file by creating a subelement
-# inside of the channel subelement
+# Grab values from the feed.yaml file by creating a subelement inside of the channel subelement
 # Basic Info
 xml_tree.SubElement(channel_element, 'title').text = yaml_data['title']
 xml_tree.SubElement(channel_element, 'title').text = yaml_data['title']
