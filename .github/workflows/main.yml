@@ -7,5 +7,6 @@ jobs:
       - name: Checkout Repo
         uses: actions/checkout@v3
       - name: Run Feed Generator
-        uses: dflorez6/actions-test-podcast-generator@main # Use actions from remote repository
+        uses: dflorez6/actions-test-podcast-generator@main 
+        # Use actions from remote repositories
         
